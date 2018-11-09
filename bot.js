@@ -10,7 +10,8 @@ const prefix = '4';
 
 
 
-client.on('ready', () => { 
+client.on('ready', () => {
+client.user.setGame(`4help`,"http://twitch.tv/S-F")
 console.log(`
 ------------------------------------------------------
 > Logging in...
